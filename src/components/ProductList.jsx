@@ -13,7 +13,7 @@ export function ProductList() {
 
     setLoading(true);
     try {
-      const response = await axios.get('https://api.jsonbin.io/v3/qs/67824cd5e41b4d34e475b24f');
+      const response = await axios.get(`https://api.jsonbin.io/v3/qs/6799cc8fad19ca34f8f63832`);
 
       const productsData = response.data?.record || [];
 
